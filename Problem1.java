@@ -26,6 +26,7 @@ class Problem1 extends ConsoleProgram {
   /**
    * Returns true or false if depending of the user's inputted username meets the required conditions
    * @param strUserName The username the user inputs 
+   * @return  the method returns true or false depending if the username meets conditions
    */
   public boolean validateUsername(String strUserName){
     if(strUserName.length() > 7){
@@ -53,6 +54,7 @@ class Problem1 extends ConsoleProgram {
  * @param strFirst The student's first name
  * @param strLast The student's last name
  * @param strStudentNum The student's student number
+ * @return The Password of the student or an error
  */
   public String createPassword(String strFirst, String strLast, String strStudentNum){
     String strPassword = "";
